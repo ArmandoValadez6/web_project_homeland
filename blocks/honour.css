@@ -1,0 +1,53 @@
+.honour {
+  max-width: 254.84px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 34px;
+  margin: auto;
+
+  font-family: "Inter Black", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.honour__logo {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 0px;
+}
+
+.honour__text {
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 1024px) {
+  .honour {
+    padding-top: 30px;
+  }
+
+  .honour__logo {
+    width: 32px;
+    height: 30px;
+  }
+
+  .honour__text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 544px) {
+  .honour {
+    padding-top: 20px;
+  }
+
+  .honour__logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  .honour__text {
+    font-size: 11px;
+  }
+}

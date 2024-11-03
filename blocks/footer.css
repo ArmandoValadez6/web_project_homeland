@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+}
+
+.footer__page {
+  color: #fff;
+  font-family: "Inter Regular", "Arial", sans-serif;
+  font-size: 14px;
+  text-align: right;
+
+  margin: auto;
+  margin-bottom: 0px;
+}
