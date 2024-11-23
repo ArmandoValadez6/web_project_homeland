@@ -1,0 +1,32 @@
+.homeland-gallery {
+  max-width: 93%;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 92px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.gallery-image {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .homeland-gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 544px) {
+  .homeland-gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    margin-bottom: 62px;
+  }
+}
